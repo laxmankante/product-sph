@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_theme() to add the template definition.
+ **/
+function product_sph_page_attachments(array &$page){
+  $page['#attached']['library'][] = 'product_sph/product_sph';
+}

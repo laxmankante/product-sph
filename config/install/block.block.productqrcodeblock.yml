@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - product_sph
+    - node
+  theme:
+    - bartik
+id: productqrcodeblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: product_qr_code_block
+settings:
+  id: product_qr_code_block
+  label: 'Product QR Code Block'
+  provider: product_sph
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      products: products
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

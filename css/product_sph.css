@@ -1,0 +1,21 @@
+.node--type-products {
+  padding: 15px 20px 20px 0px;
+  margin: 10px 10px 10px 0px;
+}
+div#block-productqrcodeblock {
+  padding: 20px;
+  margin: 5px;
+  position: relative;
+  right: 30px;
+  top: 30px;
+}
+.page-node-type-products .node .field--type-image {
+  float: left;
+  margin: 0px 4em 0px 0px;
+}
+.page-node-type-products .clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item {
+  line-height: 30px;
+}
+.page-node-type-products span.field.field--name-title.field--type-string.field--label-hidden.quickedit-field {
+  font-weight: bold;
+}

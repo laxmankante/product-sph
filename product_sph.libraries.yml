@@ -1,0 +1,5 @@
+product_sph:
+  version: 1.x
+  css:
+    theme:
+       css/product_sph.css: {}

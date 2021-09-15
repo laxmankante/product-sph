@@ -1,0 +1,13 @@
+name: Products List and QR Code
+description: This is a custom module for enhancing the site product list and QR code.
+package: Custom
+type: module
+dependencies:
+  - drupal:block
+  - drupal:node
+  - drupal:text
+  - drupal:link
+  - drupal:path
+
+core: 8.x
+core_version_requirement: ^8 || ^9
